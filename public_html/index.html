@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The Cherry Contract System</title>
+  <link rel="stylesheet" href="foundation.min.css" type="text/css" />
+  <script src="jquery.min.js"></script>
+  <script src="foundation.min.js"></script>
+  <script src="//use.edgefonts.net/alegreya-sc;alegreya;chunk.js"></script>
+  <script src="index_script.js"></script>
+  <link rel="stylesheet" href="index_styles.css" type="text/css" />
+</head>
+
+<body>
+  <h1 id="ttl">
+            The Cherry Contract System
+        </h1>
+  <div class="row">
+    <div class="column small-12">
+      <p class="primary callout">
+        To enter the site, please answer the following security questions.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column small-6 medium-4 large-3 medium-offset-2 large-offset-3">
+      <input type="text" placeholder="Block" id="block" onkeyup="checkEnter()">
+    </div>
+    <div class="column small-6 medium-4 large-3 end">
+      <input type="text" placeholder="Grade" id="grade" onkeyup="checkEnter()">
+    </div>
+  </div>
+  <div class="row">
+    <div class="column medium-6 large-4 medium-offset-2 large-offset-3">
+      <input type="text" placeholder="Last Name of Manager" id="cmp_mng" onkeydown="if (event.keyCode == 13)
+                        document.getElementById('enter').click()">
+    </div>
+    <div class="column medium-2 end">
+      <button class="button expanded disabled" id="enter" onclick="enter()">Enter</button>
+    </div>
+  </div>
+  <p id=cmp>just us.</p>
+  <p id=cpy>Copyright 2016 Sam Robson. All rights reserved.</p>
+</body>
+
+</html>

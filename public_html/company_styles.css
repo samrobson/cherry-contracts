@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    font-family: alegreya-sc;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    background-color: #383838;
+    color: white;
+}
+
+#inst {
+    font-family: alegreya;
+    font-size: 2em;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 2em;
+    text-align: center;
+    font-family: chunk;
+    font-size: 3em;
+    color: dodgerblue;
+}
+
+#cpy {
+    text-align: center;
+    font-size: .6em;
+}

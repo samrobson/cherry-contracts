@@ -1,0 +1,22 @@
+#ttl {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #383838;
+    color: white;
+    font-family: alegreya-sc;
+}
+
+#cmp {
+    padding-top: 2em;
+    text-align: center;
+    font-family: chunk;
+    font-size: 3em;
+    color: dodgerblue;
+    
+}
+
+#cpy {
+    text-align: center;
+    font-size: .6em;
+}
